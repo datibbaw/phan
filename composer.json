@@ -1,0 +1,19 @@
+{
+    "name": "rlerdorf/phan",
+    "description": "Phan is a static analyzer for PHP.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rasmus Lerdorf",
+            "email": "rasmus@php.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-ast": "*"
+    },
+    "autoload": {
+        "files": ["includes/log.php", "includes/util.php", "includes/pass1.php", "includes/pass2.php", "includes/ast_util.php"]
+    },
+    "bin": ["phan"]
+}

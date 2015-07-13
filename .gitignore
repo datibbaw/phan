@@ -4,3 +4,5 @@
 /tests/*.out
 /tests/*.php
 /tests/*.sh
+
+/vendor/
